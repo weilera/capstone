@@ -9,4 +9,9 @@ group :development do
   gem 'spring', '~>2.0', '>=2.0.0'
 end
 
+group :production do
+  gem 'rails_12factor', '~>0.0', '>= 0.0.3'
+end
+
 gem 'pg', '~>0.19', '>=0.19.0'
+gem 'mongoid', '~>5.1', '>=5.1.5'
